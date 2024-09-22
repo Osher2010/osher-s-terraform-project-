@@ -1,0 +1,20 @@
+# Example of a YAML file with an error
+user:
+  name: John Doe
+  age: 30
+  hobbies:
+    - reading
+    - hiking
+    - coding
+  address:
+    street: 123 Main St
+    city: Anytown
+    state: CA
+    zip: "12345"
+
+# This line has a syntax error due to the wrong indentation
+  pets:
+    - type: Dog
+      name: Fido
+    - type: Cat
+      name: Whiskers
